@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
 
 *{
@@ -5,9 +6,38 @@
     padding: 0;
     font-family: 'Nunito', sans-serif;
 }
+
+body{
+    background: linear-gradient(105.18deg, #f4fbfa 0%, #bebebe 100%);
+}
+
+.left_info h1{
+    color: #434141;
+    font-size: 70px;
+    font-weight: 700;
+    padding: 20%;
+}
+
+#h1_baixo{
+    font-size: 80px;
+}
+
+.letra_title:first-child{
+    color: #F78B1F;
+}
+
+.letra_title:last-child{
+    color: #005594;
+}
+
 .container{
-    border: 1px solid red;
-    width: 95%;
-    height: 98%;
-    margin: auto;
+    /* border: 1px solid red; */
+    width: 90%;
+    height: 90vh;
+    margin: 5vh auto auto auto;
+    background-color: #E7E7E7;
+}
+
+.left_info, .right_info{
+    float: left;
 }
