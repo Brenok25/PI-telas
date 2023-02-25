@@ -7,7 +7,8 @@
     <title>.:TU01:.</title>
     <link rel="stylesheet" href="style.css">
 
-    
+    <!-- importe do icon de mostrar senha -->
+    <script src="https://kit.fontawesome.com/9b5324f6a3.js" crossorigin="anonymous"></script>
 
 </head>
 <body>
@@ -29,14 +30,18 @@
 
                 <div class="inp_senha">
                     <input type="password" id="password" class="form inp_dados" placeholder="CPF ou Senha">
-                    <i class="fa-solid fa-eye"></i>
+                    <span class="show-btn" id="showPassword"><i class="fas fa-eye"></i></span>
                 </div>
 
                 <br>
                 <input type="submit" class="form send_btn" value="Entrar" class="send_btn">
 
                 <div class="social">
-                    <h4>Contatos</h4>
+                    <div class="title_contatos">
+                        <hr class="line_h4">
+                        <h4 class="">Contatos</h4>
+                        <hr class="line_h4">
+                    </div>
 
                     <div class="social_icon"> <img src="" alt=""></div>
                     <div class="social_icon"> <img src="" alt=""></div>
@@ -53,7 +58,6 @@
     </section>
 
     <script src="./js.js"></script>
-    <script src="https://kit.fontawesome.com/9e219aae21.js" crossorigin="anonymous"></script>
     
 </body>
 </html>

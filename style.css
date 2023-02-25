@@ -11,6 +11,7 @@
 body{
     background: linear-gradient(105.18deg, #f4fbfa 0%, #bebebe 100%);
     height: 100vh;
+    overflow-y: hidden;
     /* esse overflow ta escondendo o que passa da tela, num pc maior n sei se é necessario/ só usar em media acima de um determinado numero, pra cll buga */
 }
 
@@ -50,6 +51,7 @@ body{
     padding-left: 22%;
 }
 
+/* Começando aqui a estilização do form */
 .right_info{
     margin: 7.2% 0 0 32.5%;
 }
@@ -60,8 +62,8 @@ body{
 }
 
 .inp_dados{
-    width: 22.6em;
-    padding-left: 10%;
+    width: 22.7em;
+    padding: 0 5% 0 5%;
     margin-bottom: 8%;
     height: 3.3em;
     background-color: #E9EFF6;
@@ -82,10 +84,6 @@ input[type="number"] {
     -moz-appearance: textfield;
 }
 
-#password{
-    width: 20em;
-}
-
 .send_btn{
     background-color: #F78B1F;
     color: #ffffff;
@@ -98,4 +96,59 @@ input[type="number"] {
 
 .send_btn:hover{
     opacity: 0.8;
+}
+
+#password{
+    width: 19.5em;
+    padding-right: 5%;
+}
+
+.inp_senha{
+    width: 21em;
+    height: 2.7em;
+    background-color: #E9EFF6;
+    border-radius: 20px;
+}
+
+/* essas proximas 3 linhas cortam o icon na tela quando ele tiver a classe: hide-btn */
+.inp_senha span i.hide-btn::before{
+    content: "\f070";
+}
+
+/* começando aqui a estilização do titulo de contato */
+
+.social{
+    margin: 7%;
+    width: 18em;
+    text-align: center;
+}
+
+.social h4{
+    text-align: center;
+    font-weight: 500;
+    width: 23%;
+    display: inline-flex;
+}
+
+.line_h4{
+    width: 30%;
+    display: inline-flex;
+}
+
+hr{
+    height: 1px;
+    background-color: #000;
+    position: relative;
+    bottom: 2px;
+}
+
+/* começando aqui a estilização dos icons de contato */
+
+.social_icon{
+    border: 1px solid red;
+    width: 23%;
+    height: 100%;
+    justify-content: space-between;
+    display: inline-block;
+    margin: 0 2%;
 }
