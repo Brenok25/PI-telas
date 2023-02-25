@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>.:TU01:.</title>
     <link rel="stylesheet" href="style.css">
+
+    
+
 </head>
 <body>
 
@@ -21,10 +24,16 @@
 
         <div class="right_info">
             <form action="" class="login_enter">
-                <input type="number" placeholder="Matricula ou Token">
-                <input type="password" placeholder="CPF ou Senha">
+                <input type="number" class="form inp_dados" placeholder="Matricula ou Token">
+                <br>
 
-                <input type="submit" value="Entrar" class="send_btn">
+                <div class="inp_senha">
+                    <input type="password" id="password" class="form inp_dados" placeholder="CPF ou Senha">
+                    <i class="fa-solid fa-eye"></i>
+                </div>
+
+                <br>
+                <input type="submit" class="form send_btn" value="Entrar" class="send_btn">
 
                 <div class="social">
                     <h4>Contatos</h4>
@@ -42,6 +51,9 @@
 
         
     </section>
+
+    <script src="./js.js"></script>
+    <script src="https://kit.fontawesome.com/9e219aae21.js" crossorigin="anonymous"></script>
     
 </body>
 </html>
