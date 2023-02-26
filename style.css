@@ -116,7 +116,6 @@ input[type="number"] {
 }
 
 /* começando aqui a estilização do titulo de contato */
-
 .social{
     margin: 7%;
     width: 18em;
@@ -143,12 +142,50 @@ hr{
 }
 
 /* começando aqui a estilização dos icons de contato */
-
 .social_icon{
-    border: 1px solid red;
-    width: 23%;
-    height: 100%;
+    padding: 2%;
+    width: 12%;
+    height: 1.9em;
+    align-items: center;
     justify-content: space-between;
-    display: inline-block;
-    margin: 0 2%;
+    float: left;
+    margin: 5% 5% 5% 9.5%;
+    background-color: #E7E7E7;
+    border: 2px solid #F2F2F2;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.social_icon img{
+    margin-top: 2px;
+}
+
+.social_icon img:first-child{
+    margin-top: 3px;
+}
+
+.up-div{
+    margin-bottom: 3em;
+}
+
+.up-div img{
+    margin-top: 15% !important; 
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:hover{
+    opacity: 0.7;
+}
+
+/* começando aqui a estilização da imagem central */
+.last_img img{
+    height: 50%;
+    width: 35%;
+    position: relative;
+    bottom: 15em;
+    left: 24em;
 }
